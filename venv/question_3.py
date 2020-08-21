@@ -11,7 +11,7 @@ bonus_point = 100
 def score_cal():
     call_points = 10 * Jordan_belfort.get('samtaler')
     meeting_points = 30 * Jordan_belfort.get('møter')
-    sale_points = 100 * Jordan_belfort.get('salg')
+    sale_points = 178 * Jordan_belfort.get('salg')
 
 
     if Jordan_belfort.get('samtaler')>=150:
@@ -23,7 +23,7 @@ def score_cal():
             Jordan_belfort['score'] = sum_points
             print(Jordan_belfort)
         elif Jordan_belfort.get('samtaler')>=450:
-            sum_points = call_points + meeting_points + sale_points + bonus_point * 2
+            sum_points = call_points + meeting_points + sale_points + bonus_point * 3
             Jordan_belfort['score'] = sum_points
             print(Jordan_belfort)
     else:
