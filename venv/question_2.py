@@ -6,7 +6,7 @@ def to_camel_case(text):
         capital = text.swapcase()
         print(capital)
 
-        if  text != text.isspace():
+        if text != text.isspace():
                 print(stringcase.snakecase(text))
         else:
                 print('Wrong format dude!')
@@ -14,5 +14,5 @@ def to_camel_case(text):
 
 
 
-to_camel_case('Do You best')
+to_camel_case('Do Your best')
 
