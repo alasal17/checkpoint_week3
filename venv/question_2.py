@@ -6,14 +6,14 @@ def to_camel_case(text):
         capital = text.swapcase()
         print(capital)
 
-        if  text != text.split(' '):
+        if text.swapcase() and not re.search(r"\s", text):
                 print(stringcase.snakecase(text))
 
-        elif text == text.isspace():
+        elif re.search(r"\s", text):
                 print('Wrong format dude! Try again')
 
 
 
 
-to_camel_case('salam Alanezy')
+to_camel_case('')
 
