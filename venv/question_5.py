@@ -25,9 +25,13 @@ def students_places():
                 print(list)
             else:
                 print(list)
-    except Exception as e:
-        print(e)
-        pass
+    except :
+            if 'Salam' == list[0] or 'Salam' == list[1] or 'Salam' == list[2] and 'Osama' != list[2]:
+                list.sort()
+                print(list)
+            else:
+                print(list)
+
 
 
 students_places()
