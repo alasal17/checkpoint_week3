@@ -1,9 +1,13 @@
 customers = ['James', 'John', 'Robert', 'Mary', 'Patricia', 'Jennifer']
 salarys = [155000, 755000,  455000, 1255000, 635000, 575000]
 taxes = [55800, 317100, 182000, 451800, 171450, 71400]
-customer_salary_tax={}
+
 
 def fraud_detection():
+
+
+
+
     fraud_list=[]
     if taxes[0]/salarys[0] <= 0.30:
         fraud_list.append(customers[0])
